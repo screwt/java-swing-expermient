@@ -7,7 +7,7 @@ all: myProgram
 myProgram: $(classes) jar
 
 clean :
-	rm -f *.class *.jar
+	rm -f aeontdl/*.class *.jar
 
 %.class : %.java
 	$(JAVAC) $<
